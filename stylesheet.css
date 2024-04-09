@@ -1,0 +1,64 @@
+.grid-container > div {
+    background-color: #ffffff;
+    }
+
+body {
+    max-width: 90%;
+    margin: 50px auto;
+    box-shadow: 3px 3px 5px rgba(71, 71, 71, .3);
+    border-radius: 5px;
+}
+
+.photo {
+    margin: 20px;
+    margin-left: 30%;
+    box-shadow: 50px 15px rgb(60, 223, 223);
+}
+
+.grid-container {
+    border-radius: 5px;
+    
+}
+
+.name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(60, 223, 223);
+   /* text-align: center;*/
+    font-size: 40px;
+    padding: 50px 0 0 50px;
+    
+}
+
+.information {
+    font-family: Arial, sans-serif;
+    /*margin: 100px auto;*/
+    padding-left: 50px;
+    font-size: 14px;
+}
+
+a {
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: 50px;
+    border-radius: 25px;
+    border: 0px;
+    background-color: rgb(60, 223, 223);
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.logo {
+    height: 20px;
+    margin-left: 50px;
+    padding-top: 12px; 
+}
+
+.item1 {
+    background-image: url(florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: -150px;
+    background-size: 100%;
+}

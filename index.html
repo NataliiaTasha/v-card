@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML-CSS - v-card</title>
+        <link rel="stylesheet" href="stylesheet.css"> 
+        <style>
+           .item1 { grid-area: photo;}
+           .item2 { grid-area: info;}
+           .item3 { grid-area: links;}
+           .item4 { grid-area: footer1;}
+           .item5 { grid-area: footer2;}
+           .item6 { grid-area: footer3;}
+
+           .grid-container {
+            display: grid;
+            grid-template-areas: 
+              'photo photo photo info info'
+              'photo photo photo info info'
+              'photo photo photo links links'
+              'footer1 footer2 footer2 footer3 footer3';
+              
+              background-color: aqua;
+              align-items: normal;
+              
+           }
+        </style>
+    </head>
+<body>
+    <div class="grid-container">
+        <div class="item1"><img src="unnamed.jpg" height="350px" class="photo"></div>
+        <div class="item2">
+            <p class="name">Nataliia Melnykova</p>
+            <p class="information">Hey, I'm Nataliia Melnykova from Ukraine.<br>As a Keller-7 student at BeCode Charleroi,<br>I'm 
+                studying the mystical arts of coding.<br>In my past life I was a Graphic designer and ilustrator.
+            </p>
+        </div>
+        <div class="item3"><a href="https://www.behance.net/tasha_shwartz" target="_blank">Behance illustration</a><a href="https://www.behance.net/shwtasha_melnykova" target="_blank">Behance design</a></div>
+        <div class="item4"><p class="information">mail: nataliiamelnykova9@gmail.com</p></div>
+        <div class="item5"><p class="information">phone: 0465227469</p></div>
+        <div class="item6"><img src="facebook-logo_4406234.png" class="logo"><img src="linkedin_4628658.png" class="logo"></div>
+    </div>
+</body>    
+</html>
