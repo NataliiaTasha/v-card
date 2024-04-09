@@ -1,23 +1,24 @@
 .grid-container > div {
-    background-color: #ffffff;
+    background-color: #f5f5f5;
     }
 
 body {
-    max-width: 90%;
+    max-width: 85%;
     margin: 50px auto;
     box-shadow: 3px 3px 5px rgba(71, 71, 71, .3);
     border-radius: 5px;
 }
-
+.item1 {
+    height: auto;
+}
 .photo {
-    margin: 20px;
+    margin: 10px;
     margin-left: 30%;
-    box-shadow: 50px 15px rgb(60, 223, 223);
+    box-shadow: 30px 10px rgb(60, 223, 223);
 }
 
 .grid-container {
     border-radius: 5px;
-    
 }
 
 .name {
@@ -25,8 +26,7 @@ body {
     color: rgb(60, 223, 223);
    /* text-align: center;*/
     font-size: 40px;
-    padding: 50px 0 0 50px;
-    
+    padding-left: 50px;    
 }
 
 .information {
@@ -41,24 +41,42 @@ a {
     padding: 10px;
     margin-left: 50px;
     border-radius: 25px;
-    border: 0px;
     background-color: rgb(60, 223, 223);
     text-decoration: none;
     color: #ffffff;
     font-family: Arial, sans-serif;
     font-size: 10px;
     text-transform: uppercase;
+    font-weight: bold;
+}
+
+a:hover {
+    box-shadow: 0px 0px 5px rgba(71, 71, 71, .5);
+    background-color: rgb(50, 185, 185);
 }
 
 .logo {
     height: 20px;
     margin-left: 50px;
     padding-top: 12px; 
+    
 }
 
 .item1 {
     background-image: url(florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
     background-repeat: no-repeat;
-    background-position: -150px;
+    background-position: -150px -10px;
     background-size: 100%;
+}
+
+.image {
+    height: 100px;
+    margin: auto;
+}
+.item4, .item5 {
+   
+    padding-top: 20px;
+}
+.item5 {
+    text-align: center;
 }
