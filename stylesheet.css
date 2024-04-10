@@ -5,7 +5,7 @@ body {
     border-radius: 5px;
 }
 
-a {
+.illustr, .design {
     box-sizing: border-box;
     padding: 10px;
     border-radius: 25px;
@@ -19,11 +19,15 @@ a {
     font-weight: 700;
 }
 
-a:hover {
+ .design:hover {
      box-shadow: 2px 2px 3px rgba(71, 71, 71, .3);
      background-color: rgb(28, 146, 146);
 }
 
+.illustr:hover{
+    box-shadow: 2px 2px 3px rgba(71, 71, 71, .3);
+    background-color: rgb(28, 146, 146);
+}
 .grid-container {
     border-radius: 5px;
 }
